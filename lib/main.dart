@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import './services/sql_helper.dart';
-import './screens/HomePage.dart';
+import 'screens/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: MyHomePage(title: 'Todo List Home!'),
+      home: HomePage(),
     );
   }
 }
